@@ -15,6 +15,9 @@
 		18D45AA61CD9A573008C5C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D45AA41CD9A573008C5C2D /* LaunchScreen.storyboard */; };
 		18D45AB11CD9A573008C5C2D /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D45AB01CD9A573008C5C2D /* runtimeTests.m */; };
 		18D45ABC1CD9A573008C5C2D /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D45ABB1CD9A573008C5C2D /* runtimeUITests.m */; };
+		18D45ACB1CD9A5A3008C5C2D /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D45ACA1CD9A5A3008C5C2D /* UIButton+touch.m */; };
+		18D45ACE1CD9CAA8008C5C2D /* CustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D45ACD1CD9CAA8008C5C2D /* CustomClass.m */; };
+		18D45AD11CD9CB75008C5C2D /* NSObject+RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D45AD01CD9CB75008C5C2D /* NSObject+RuntimeTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		18D45AB71CD9A573008C5C2D /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D45ABB1CD9A573008C5C2D /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		18D45ABD1CD9A573008C5C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D45AC91CD9A5A3008C5C2D /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		18D45ACA1CD9A5A3008C5C2D /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		18D45ACC1CD9CAA8008C5C2D /* CustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClass.h; sourceTree = "<group>"; };
+		18D45ACD1CD9CAA8008C5C2D /* CustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClass.m; sourceTree = "<group>"; };
+		18D45ACF1CD9CB75008C5C2D /* NSObject+RuntimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RuntimeTest.h"; sourceTree = "<group>"; };
+		18D45AD01CD9CB75008C5C2D /* NSObject+RuntimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RuntimeTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				18D45A991CD9A573008C5C2D /* AppDelegate.h */,
 				18D45A9A1CD9A573008C5C2D /* AppDelegate.m */,
+				18D45AC91CD9A5A3008C5C2D /* UIButton+touch.h */,
+				18D45ACA1CD9A5A3008C5C2D /* UIButton+touch.m */,
 				18D45A9C1CD9A573008C5C2D /* ViewController.h */,
 				18D45A9D1CD9A573008C5C2D /* ViewController.m */,
+				18D45ACC1CD9CAA8008C5C2D /* CustomClass.h */,
+				18D45ACD1CD9CAA8008C5C2D /* CustomClass.m */,
+				18D45ACF1CD9CB75008C5C2D /* NSObject+RuntimeTest.h */,
+				18D45AD01CD9CB75008C5C2D /* NSObject+RuntimeTest.m */,
 				18D45A9F1CD9A573008C5C2D /* Main.storyboard */,
 				18D45AA21CD9A573008C5C2D /* Assets.xcassets */,
 				18D45AA41CD9A573008C5C2D /* LaunchScreen.storyboard */,
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D45A9E1CD9A573008C5C2D /* ViewController.m in Sources */,
+				18D45ACE1CD9CAA8008C5C2D /* CustomClass.m in Sources */,
 				18D45A9B1CD9A573008C5C2D /* AppDelegate.m in Sources */,
 				18D45A981CD9A573008C5C2D /* main.m in Sources */,
+				18D45AD11CD9CB75008C5C2D /* NSObject+RuntimeTest.m in Sources */,
+				18D45ACB1CD9A5A3008C5C2D /* UIButton+touch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
